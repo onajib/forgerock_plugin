@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.forgerock_plugin">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"
+        tools:node="remove" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"
+        tools:node="remove" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"
+        tools:node="remove"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"
+        tools:node="remove"/>
+</manifest>

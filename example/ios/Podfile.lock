@@ -1,0 +1,33 @@
+PODS:
+  - Flutter (1.0.0)
+  - forgerock_plugin (0.2.0):
+    - Flutter
+    - FRAuth
+  - FRAuth (3.1.1):
+    - FRCore (~> 3.1.1)
+  - FRCore (3.1.1)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - forgerock_plugin (from `.symlinks/plugins/forgerock_plugin/ios`)
+
+SPEC REPOS:
+  trunk:
+    - FRAuth
+    - FRCore
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  forgerock_plugin:
+    :path: ".symlinks/plugins/forgerock_plugin/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  forgerock_plugin: 0dd4937ae2554773bde3f5fe9156be974c9f70fb
+  FRAuth: e0d9b29b84f6ef45f607dad043c1ac438f1c584e
+  FRCore: 410918e69d31833a5764c5cf7129051a22952f59
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.11.2
